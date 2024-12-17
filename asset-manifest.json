@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Jeanson-Portfolio/static/css/main.f8054b4e.css",
+    "main.js": "/Jeanson-Portfolio/static/js/main.3acdf018.js",
+    "static/media/project4.JPG": "/Jeanson-Portfolio/static/media/project4.cc035f8c5ef6626781c4.JPG",
+    "static/media/project1.jpg": "/Jeanson-Portfolio/static/media/project1.39c533d852de21740240.jpg",
+    "static/media/profile.png": "/Jeanson-Portfolio/static/media/profile.5df33718657d7e9fea14.png",
+    "static/media/jacket.jpg": "/Jeanson-Portfolio/static/media/jacket.9948d7af33654842ef6d.jpg",
+    "static/media/creative-portfolio.jpg": "/Jeanson-Portfolio/static/media/creative-portfolio.20da39d6900e3568fde1.jpg",
+    "static/media/project3.png": "/Jeanson-Portfolio/static/media/project3.974f77a5a14d4e38c594.png",
+    "static/media/project2.jpg": "/Jeanson-Portfolio/static/media/project2.54b2949eeedef0e74cec.jpg",
+    "static/media/mockup1.jpg": "/Jeanson-Portfolio/static/media/mockup1.ababda72953ac8ae61f3.jpg",
+    "static/media/jersey1.jpg": "/Jeanson-Portfolio/static/media/jersey1.0f0c7a90ed17a88bd862.jpg",
+    "static/media/board.JPG": "/Jeanson-Portfolio/static/media/board.8183e64045ad95f735b4.JPG",
+    "static/media/recent-logo1.svg": "/Jeanson-Portfolio/static/media/recent-logo1.e6ea0925c20feeec9fa4713acbd09b27.svg",
+    "static/media/web-development.JPG": "/Jeanson-Portfolio/static/media/web-development.480b77b19e2cdac37679.JPG",
+    "static/media/logo5.png": "/Jeanson-Portfolio/static/media/logo5.1a380a2b7d26a61f8541.png",
+    "static/media/frontend.JPG": "/Jeanson-Portfolio/static/media/frontend.09a3fcd731e663a15aa0.JPG",
+    "static/media/advancephp.JPG": "/Jeanson-Portfolio/static/media/advancephp.4b1331755051efdd0f91.JPG",
+    "static/media/webfundamentals.JPG": "/Jeanson-Portfolio/static/media/webfundamentals.27ce03ae397f7fc64e7e.JPG",
+    "static/media/logo1.png": "/Jeanson-Portfolio/static/media/logo1.83ab7351bff118ff5df6.png",
+    "static/media/logo4.png": "/Jeanson-Portfolio/static/media/logo4.f5a1729fa1799221490d.png",
+    "static/media/logo2.png": "/Jeanson-Portfolio/static/media/logo2.21f0369780cdc2c45c22.png",
+    "static/media/logo3.png": "/Jeanson-Portfolio/static/media/logo3.266d7d37a57c193dd155.png",
+    "static/media/jca-logo.svg": "/Jeanson-Portfolio/static/media/jca-logo.5b4d467eb3dcb4feea950af6ae6e7723.svg",
+    "static/media/color1.svg": "/Jeanson-Portfolio/static/media/color1.e2f45516f4e19ea117a970fce2c95eef.svg",
+    "index.html": "/Jeanson-Portfolio/index.html",
+    "main.f8054b4e.css.map": "/Jeanson-Portfolio/static/css/main.f8054b4e.css.map",
+    "main.3acdf018.js.map": "/Jeanson-Portfolio/static/js/main.3acdf018.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8054b4e.css",
+    "static/js/main.3acdf018.js"
+  ]
+}
