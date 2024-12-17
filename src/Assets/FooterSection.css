@@ -1,0 +1,78 @@
+/* Base Footer Styling */
+.footer-section {
+    background-color: #1a202c; /* Dark gray background */
+    color: #e2e8f0; /* Light gray text */
+    padding: 2rem 1rem; /* Spacing */
+    font-family: 'Arial', sans-serif; /* Clean font */
+  }
+  
+  .footer-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Footer Columns */
+  .footer-column {
+    text-align: center;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff; /* Bright white */
+    margin-bottom: 1rem;
+  }
+  
+  .footer-column p {
+    font-size: 0.875rem; /* Slightly smaller text */
+    color: #a0aec0; /* Muted gray for description */
+    line-height: 1.5; /* Better readability */
+  }
+  
+  .footer-column a {
+    text-decoration: none; /* Remove underlines */
+    color: #63b3ed; /* Soft blue link color */
+    transition: color 0.3s ease;
+  }
+  
+  .footer-column a:hover {
+    color: #90cdf4; /* Lighter blue on hover */
+  }
+  
+  /* Social Media Icons */
+  .footer-column .flex {
+    justify-content: center; /* Center icons */
+    gap: 1.5rem; /* Space between icons */
+    display: flex;
+  }
+  
+  .footer-column svg {
+    width: 24px; /* Icon size */
+    height: 24px;
+    fill: #a0aec0; /* Muted gray */
+    transition: fill 0.3s ease, transform 0.2s ease;
+  }
+  
+  .footer-column svg:hover {
+    fill: #63b3ed; /* Brighten on hover */
+    transform: scale(1.1); /* Slight zoom */
+  }
+  
+  /* Footer Bottom */
+  .footer-section .mt-8 {
+    margin-top: 2rem; /* Spacing */
+    text-align: center;
+    font-size: 0.75rem; /* Smaller text */
+    color: #718096; /* Muted gray */
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .footer-section .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Three columns */
+      gap: 2rem; /* Spacing between columns */
+      text-align: left; /* Align text to the left for larger screens */
+    }
+  }
+  

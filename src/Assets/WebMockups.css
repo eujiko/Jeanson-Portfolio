@@ -1,0 +1,68 @@
+/* WebMockups.css */
+
+.web-mockups {
+    padding: 3rem 1rem; /* Adjust padding for top and bottom spacing */
+    background-color: #f3f4f6; /* Light gray background */
+    text-align: center;
+  }
+  
+  .web-mockups h2 {
+    font-size: 1.75rem; /* Title size */
+    margin-bottom: 1.5rem;
+    color: #2d3748; /* Gray color for text */
+  }
+  
+  .mockup-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Space between mockup cards */
+  }
+  
+  .mockup-card {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for small screens */
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .mockup-card {
+      grid-template-columns: 1fr 1fr; /* Two columns for medium and larger screens */
+      align-items: center;
+    }
+  
+    .mockup-card.md\:flex-row-reverse {
+      grid-template-columns: 1fr 1fr; /* Reverse columns for alternating layout */
+      direction: rtl;
+    }
+  
+    .mockup-card.md\:flex-row-reverse > .mockup-image,
+    .mockup-card.md\:flex-row-reverse > .mockup-description {
+      direction: ltr;
+    }
+  }
+  
+  .mockup-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .mockup-description {
+    text-align: left; /* Align text to the left */
+    padding: 1.5rem;
+  }
+  
+  .mockup-description h3 {
+    font-size: 1.25rem; /* Subtitle size */
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #4a5568; /* Slightly darker gray for the title */
+  }
+  
+  .mockup-description p {
+    font-size: 1rem;
+    color: #718096; /* Lighter gray for the paragraph text */
+    line-height: 1.6;
+  }
+  

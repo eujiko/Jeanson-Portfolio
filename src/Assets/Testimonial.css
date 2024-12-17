@@ -1,0 +1,79 @@
+/* Base Testimonial Section Styling */
+.testimonial-section {
+    background-color: #f9fafb; /* Light gray background */
+    padding: 3rem 1rem;
+  }
+  
+  .testimonial-section h2 {
+    font-size: 2rem;
+    color: #1f2937; /* Dark gray text */
+    margin-bottom: 2rem;
+    font-family: 'Arial', sans-serif; /* Clean font */
+  }
+  
+  /* Testimonial Grid */
+  .testimonial-grid {
+    display: grid;
+    grid-gap: 2rem; /* Spacing between cards */
+  }
+  
+  /* Testimonial Card */
+  .testimonial-card {
+    background-color: #ffffff; /* White background */
+    border-radius: 1rem; /* Rounded corners */
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+  }
+  
+  /* Card Hover Effects */
+  .testimonial-card:hover {
+    transform: translateY(-10px); /* Float effect */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+  }
+  
+  /* Avatar Styling */
+  .testimonial-card img {
+    width: 64px; /* Avatar size */
+    height: 64px;
+    border-radius: 50%; /* Circular avatar */
+    margin-bottom: 1rem;
+    border: 2px solid #3b82f6; /* Blue border */
+  }
+  
+  /* Testimonial Text */
+  .testimonial-card p {
+    font-size: 1rem;
+    color: #4b5563; /* Mid-gray text */
+    margin-bottom: 1rem;
+    font-style: italic; /* Italicize testimonials */
+    line-height: 1.6; /* Spacing for readability */
+  }
+  
+  /* Name */
+  .testimonial-card h3 {
+    font-size: 1.25rem;
+    color: #1f2937; /* Dark gray */
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Title */
+  .testimonial-card p:last-child {
+    font-size: 0.875rem; /* Smaller text for title */
+    color: #6b7280; /* Light gray */
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .testimonial-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .testimonial-grid {
+      grid-template-columns: repeat(3, 1fr); /* Three columns for large screens */
+    }
+  }
+  

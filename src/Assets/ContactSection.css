@@ -1,0 +1,119 @@
+/* Contact Section Base */
+.contact-section {
+    padding: 4rem 1rem;
+    background: linear-gradient(to right, #f7fafc, #ffffff, #edf2f7);
+    text-align: center;
+  }
+  
+  .contact-section h1,
+  .contact-section h3 {
+    color: #4a5568; /* Dark gray for secondary text */
+  }
+  
+  .contact-section h1 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-section h3 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2d3748; /* Darker gray for primary headings */
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-section p {
+    color: #718096; /* Muted gray for descriptions */
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    justify-content: center;
+    max-width: 40rem;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0; /* Light border */
+  }
+  
+  /* Input and Textarea Styles */
+  .contact-form input,
+  /* Textarea Styling */
+.contact-form textarea {
+    width: 100%; /* Full width */
+    padding: 0.75rem 1rem; /* Padding for content */
+    margin-bottom: 1rem; /* Space between elements */
+    border: 1px solid #e2e8f0; /* Light border color */
+    border-radius: 0.5rem; /* Smooth corners */
+    font-size: 1rem; /* Readable font size */
+    background-color: #f7fafc; /* Slightly off-white background */
+    color: #2d3748; /* Dark text color */
+    resize: none; /* Prevent resizing */
+    box-shadow: none; /* Remove default shadows */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth interactions */
+  }
+  
+  /* Textarea Focus State */
+  .contact-form textarea:focus {
+    border-color: #4a5568; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(74, 85, 104, 0.2); /* Light shadow for focus effect */
+    outline: none; /* Remove default browser outline */
+  }
+  
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #4a5568; /* Darker gray on focus */
+    box-shadow: 0 0 5px rgba(74, 85, 104, 0.2); /* Light focus glow */
+    outline: none;
+  }
+  
+  /* Button Styles */
+  .contact-form button {
+    width: 100%;
+    background: #4a5568; /* Dark gray */
+    color: #ffffff;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background: #2d3748; /* Darker gray */
+    transform: translateY(-2px); /* Slight lift */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); /* Subtle hover shadow */
+  }
+  
+  .contact-form button:active {
+    transform: translateY(0); /* Reset on click */
+    box-shadow: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-section h2 {
+      font-size: 2rem;
+    }
+  
+    .contact-section p {
+      font-size: 0.9rem;
+    }
+  
+    .contact-form {
+      padding: 1.5rem;
+    }
+  }
+  

@@ -1,0 +1,27 @@
+.carousel {
+    overflow: hidden;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .carousel-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .carousel-track img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    padding: 16px;
+  }
+  
+  /* Keyframes for infinite scrolling animation */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
