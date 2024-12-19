@@ -1,10 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { gsap } from 'gsap'; // Import GSAP
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'; // Import the icons you need
 import '../Assets/LandingPage.css'; // Ensure this file has the correct styles
 import logo from '../Assets/images/jca-logo.svg'; // Import the logo
 import profile from '../Assets/images/profile.png'; // Import profile image
 
 const LandingPage = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
   useEffect(() => {
     console.log('Running GSAP animation for logo');
 
@@ -57,10 +61,13 @@ const LandingPage = () => {
         <div className="logo">
           <img src={logo} alt="JCA Logo" />
         </div>
-        <nav className="nav-links">
-          <a href="#about" aria-label="About section">About</a>
-          <a href="#projects" aria-label="Projects section">Projects</a>
-          <a href="#contact" aria-label="Contact section">Contact</a>
+        <button className="hamburger" onClick={() => setIsNavOpen(!isNavOpen)}>
+          <FontAwesomeIcon icon={isNavOpen ? faTimes : faBars} className="hamburger-icon" />
+        </button>
+        <nav className={`nav-links ${isNavOpen ? 'open' : ''}`}>
+          <a href="#AboutMe" aria-label="About section">About</a>
+          <a href="#MyWork" aria-label="Projects section">Projects</a>
+          <a href="#Contact" aria-label="Contact section">Contact</a>
           <a href="path_to_your_cv.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download CV">Download CV</a>
         </nav>
       </header>

@@ -42,6 +42,24 @@ body {
   height: auto;
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 21px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburger-icon {
+  font-size: 1.5rem;
+  color: #686D76;
+  transition: color 0.3s ease;
+}
+
 .nav-links {
   display: flex;
   gap: 20px;
@@ -58,7 +76,33 @@ body {
   color: #373A40;
 }
 
-/* Hero Section Styles */
+/* Hide nav-links by default on mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #EEE;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+  .logo img { width:50px; 
+    height: 50px; }
+}
+
+/* Other existing styles... */
 .hero {
   margin-top: 100px;
   padding: 10px;
@@ -113,111 +157,5 @@ body {
   transform: scale(1.05);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) { /* Tablet */
-  .landing-page {
-    padding: 20px;
-  }
-
-  .header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .logo img {
-    width: 80px;
-  }
-
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
-  .cta-button {
-    padding: 12px 24px;
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 480px) { /* Mobile */
-  .landing-page {
-    padding: 15px;
-  }
-
-  .header {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-  }
-
-  .logo img {
-    width: 70px;
-  }
-
-  .nav-links {
-    display: none; /* Hide navigation on mobile */
-  }
-
-  .hero {
-    margin-top: 60px;
-  }
-
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-
-  .hero p {
-    font-size: 0.95rem;
-    margin: 15px 0;
-  }
-
-  .cta-button {
-    padding: 10px 20px;
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 320px) { /* Extra small mobile */
-  .landing-page {
-    padding: 10px;
-  }
-
-  .header {
-    top: 5px;
-    left: 5px;
-    right: 5px;
-  }
-
-  .logo img {
-    width: 60px;
-  }
-
-  .nav-links {
-    gap: 8px;
-  }
-
-  .hero h1 {
-    font-size: 1.5rem;
-  }
-
-  .hero p {
-    font-size: 0.85rem;
-    margin: 10px 0;
-  }
-
-  .cta-button {
-    padding: 8px 15px;
-    font-size: 0.75rem;
-  }
+@media (max-width: 320px) {
 }

@@ -3,7 +3,7 @@ import '../Assets/ContactSection.css'; // Ensure you have matching styles
 
 const ContactSection = () => {
   return (
-    <section className="contact-section py-16 bg-gradient-to-r from-gray-100 via-white to-gray-200 text-center">
+    <section className="contact-section py-16 bg-gradient-to-r from-gray-100 via-white to-gray-200 text-center" id='Contact'>
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-gray-800 mb-6">Contact Me</h2>
         <p className="text-gray-600 mb-10">

@@ -132,7 +132,7 @@ const MyWorks = () => {
   };
 
   return (
-    <section className="my-works" ref={sectionRef}>
+    <section className="my-works" id="MyWork" ref={sectionRef}>
       <div className="container">
         <h2>Recent Works</h2>
         <p className="section-description">

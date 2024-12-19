@@ -37,7 +37,7 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <section className="about-me">
+    <section className="about-me" id='AboutMe'>
       <div className="container">
         <h2>About Me</h2>
         <p>
