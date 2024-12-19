@@ -84,7 +84,7 @@ const LandingPage = () => {
           experiences can bring value to your endeavors. Whether you're a potential collaborator,
           an employer, or simply curious, I hope you find something that inspires you.
         </p>
-        <a href="#projects" className="cta-button">Start Your Journey with Me</a>
+        <a href="#MyWork" className="cta-button">Start Your Journey with Me</a>
       </section>
     </div>
   );
