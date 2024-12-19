@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Jeanson-Portfolio/static/css/main.f8054b4e.css",
-    "main.js": "/Jeanson-Portfolio/static/js/main.3acdf018.js",
+    "main.css": "/Jeanson-Portfolio/static/css/main.72a1460f.css",
+    "main.js": "/Jeanson-Portfolio/static/js/main.72068d24.js",
     "static/media/project4.JPG": "/Jeanson-Portfolio/static/media/project4.cc035f8c5ef6626781c4.JPG",
     "static/media/project1.jpg": "/Jeanson-Portfolio/static/media/project1.39c533d852de21740240.jpg",
     "static/media/profile.png": "/Jeanson-Portfolio/static/media/profile.5df33718657d7e9fea14.png",
@@ -25,11 +25,11 @@
     "static/media/jca-logo.svg": "/Jeanson-Portfolio/static/media/jca-logo.5b4d467eb3dcb4feea950af6ae6e7723.svg",
     "static/media/color1.svg": "/Jeanson-Portfolio/static/media/color1.e2f45516f4e19ea117a970fce2c95eef.svg",
     "index.html": "/Jeanson-Portfolio/index.html",
-    "main.f8054b4e.css.map": "/Jeanson-Portfolio/static/css/main.f8054b4e.css.map",
-    "main.3acdf018.js.map": "/Jeanson-Portfolio/static/js/main.3acdf018.js.map"
+    "main.72a1460f.css.map": "/Jeanson-Portfolio/static/css/main.72a1460f.css.map",
+    "main.72068d24.js.map": "/Jeanson-Portfolio/static/js/main.72068d24.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8054b4e.css",
-    "static/js/main.3acdf018.js"
+    "static/css/main.72a1460f.css",
+    "static/js/main.72068d24.js"
   ]
 }
